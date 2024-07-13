@@ -1,0 +1,88 @@
+Q1. What are Conditional statements?Explain conditional statements with syntax and examples?
+Ans: They help in making decisions in the code, enabling the program to take different actions depending on the evaluation of conditions.
+The Conditional statements in JavaScript are:
+ 	* If Statement:-The if statement executes a block of code if a specified condition is true.
+			    Syntax: if (condition)
+					 {
+
+						}
+
+				Example:-  let age=18;
+						if (age>=18)
+						{
+						   console.log("you are adult...");
+						}
+		
+	* if else Statement:- The if...else statement is used to specify a block of code to be executed if the condition is true,
+				    and another block of code to be executed if the condition is false.
+				   Syntax: if (condition) {
+						  // code to be executed if the condition is true
+						} else {
+  						// code to be executed if the condition is false
+						}
+				Example:- let x = 10;
+						if (x > 15) {
+  						console.log("x is greater than 15");
+						} else {
+  						console.log("x is not greater than 15");
+						}
+
+	* if else if else Statement:- The if else if else statement is used to specify multiple conditions.
+			Syntax:-    if (condition1) {	
+					  // code to be executed if condition1 is true
+				      } else if (condition2) {
+  					// code to be executed if condition2 is true
+			      	} else {
+  					// code to be executed if both condition1 and condition2 are false
+					}
+			Example:-   let x = 10;
+					if (x > 15) {
+  					console.log("x is greater than 15");
+ 					} else if (x > 5) {
+  					console.log("x is greater than 5 but not greater than 15");
+					} else {
+ 					 console.log("x is 5 or less");
+					}
+	* switch statement:- The switch statement is used to perform different actions based on different conditions. it is often used as an 
+				   alternative to a complex "if...else if...else structure.
+			Syntax:-	switch (expression) {
+     					case value1:
+    					// code to be executed if expression === value1
+    					break;
+  					case value2:
+    					// code to be executed if expression === value2
+  				      break;
+				     // additional cases
+  					default:
+  				    // code to be executed if expression doesn't match any case
+				   }
+			Example:- let day = 3;
+					switch (day) {
+  					case 1:
+  					  console.log("Monday");
+    					  break;
+				     case 2:
+   					  console.log("Tuesday");
+    					  break;
+  				     case 3:
+    					  console.log("Wednesday");
+    					 break;
+  				    case 4:
+    					 console.log("Thursday");
+   				      break;
+  				    case 5:
+    					console.log("Friday");
+   				     break;
+ 				   case 6:
+    				     console.log("Saturday");
+    				    break;
+  				  case 7:
+    				    console.log("Sunday");
+        			    break;
+ 				 default:
+    				   console.log("Invalid day");
+				}
+
+
+	
+	
